@@ -1,0 +1,77 @@
+.section2 {
+	display: flex;
+	width: 100vw;
+	height: 40px;
+	background-color: #232f3e;
+	padding: 0 0 0 15px;
+}
+
+.section2-navbar {
+	display: flex;
+	width: 80vw;
+	height: 40px;
+	align-items: center;
+	font-size: 13px;
+	padding-left: 10px;
+}
+
+.navbar-items a {
+	display: flex;
+	text-decoration: none;
+}
+.item {
+	color: #ffffff;
+	padding: 8px 12px;
+	margin: 5px 0 6px 0;
+	list-style: none;
+}
+.hamburger-menu {
+	display: flex;
+	width: 50px;
+	height: 35px;
+	font-size: 12px;
+	align-items: center;
+	margin: 3px 1px 3px 0;
+	padding: 2px 5px;
+}
+.hamburger-menu-icon {
+	background: url('../assets/images/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png')
+		no-repeat -172px -255px;
+	width: 18px;
+	height: 14px;
+}
+.hamburger-menu-label {
+	width: 23px;
+	height: 11px;
+	color: #ffffff;
+	padding: 0 0 0 5px;
+}
+.hamburger-menu-label p {
+	font-size: 14px;
+}
+.navbar-right-side {
+	display: flex;
+	width: 300px;
+	height: 40px;
+	padding: 0 14px 0 2px;
+	justify-content: end;
+}
+.black-friday {
+	width: 170px;
+	height: 26px;
+	margin: 6px 2px 7px 1px;
+	padding: 5px 8px 6px;
+}
+.black-friday p {
+	color: #fffff8;
+	font-size: 13px;
+}
+.black-friday:hover {
+	border: 00.02em whitesmoke solid;
+}
+.hamburger-menu:hover {
+	border: 00.02em whitesmoke solid;
+}
+.item:hover {
+	border: 00.02em whitesmoke solid;
+}

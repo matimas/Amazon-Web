@@ -1,0 +1,331 @@
+.main {
+	margin: 0px 260px;
+	background-color: #ffffff;
+	justify-content: center;
+}
+.orange-black-friday-container {
+	background: url('../assets/images/Fuji_BF_ILM_1X._CB652848759_.jpg') no-repeat
+		0 0;
+	width: 650px;
+	height: 45px;
+	margin: 0px 350px;
+	padding: 0;
+}
+.breadcrumbs_container {
+	display: flex;
+	min-width: 70vw;
+	height: 15px;
+	margin: 8px 0px 0px !important;
+	padding: 0px 16px !important;
+	font-family: 'Amazon Ember', Arial, sans-serif;
+}
+.breadcrumbs-items {
+	display: flex;
+	height: 13px;
+	width: 100vw;
+	font-size: 11px;
+	color: #565959;
+}
+.breadcrumbs-items-item {
+	cursor: pointer;
+	list-style: none;
+}
+.color-tertiary {
+	position: relative;
+	left: 5px;
+	color: #565959 !important;
+	height: 10px;
+	margin-right: 10px;
+}
+.breadcrumbs-items-item:hover {
+	text-decoration: underline #565959;
+}
+/* main - row1 */
+.row1 {
+	display: flex;
+	width: 72vw;
+	height: 600px;
+	margin: 20px 0px 0px;
+	padding: 0px 18px 18px;
+	border-bottom: 0.0002em solid rgb(160, 160, 160);
+	font-family: 'Amazon Ember', Arial, sans-serif;
+	flex-grow: center;
+}
+.list-pict-items {
+	margin: 50px 0px 0px;
+	display: flex;
+	flex-direction: column;
+}
+.pict-items {
+	list-style: none;
+	width: 50px;
+	height: 50px;
+	padding: 1px 6px;
+	border: solid rgb(160, 160, 160) 0.002em;
+	margin-bottom: 5px;
+	justify-content: center;
+	cursor: pointer;
+	background-color: transparent;
+	color: transparent;
+	vertical-align: center;
+}
+.unorder-list-vertical {
+	height: 400px;
+	width: 40px;
+}
+.pict-item1 {
+	background-position: center;
+	background: url('../assets/images/413SnpyPCwL._AC_US40_.jpg') no-repeat 0 0;
+	width: 45px;
+	height: 45px;
+}
+.pict-item2 {
+	background-position: center;
+	background: url('../assets/images/51PbNtN3zJL._AC_US40_.jpg') no-repeat 0 0;
+	width: 45px;
+	height: 45px;
+}
+.pict-item3 {
+	background-position: center;
+	background: url('../assets/images/51PbNtN3zJL._AC_US40_.jpg') no-repeat 0 0;
+	width: 45px;
+	height: 45px;
+}
+.pict-item4 {
+	background-position: center;
+	background: url('../assets/images/51PbNtN3zJL._AC_US40_.jpg') no-repeat 0 0;
+	width: 45px;
+	height: 45px;
+}
+.pict-item5 {
+	background-position: center;
+	background: url('../assets/images/41ZQ+JQrXVL._AC_US40_.jpg') no-repeat 0 0;
+	width: 45px;
+	height: 45px;
+}
+.pict-item6 {
+	background-position: center;
+	background: url('../assets/images/31Ae+5g2E0L._AC_US40_.jpg') no-repeat 0 0;
+	width: 45px;
+	height: 45px;
+}
+.pict-item7 {
+	background-position: center;
+	background: url('../assets/images/41dtW-CzP3L._SS40_PKmb-play-button-overlay-thumb_.jpg')
+		no-repeat 0 0;
+	width: 45px;
+	height: 45px;
+}
+.pict-items:hover {
+	box-shadow: 0px 0px 5px 2px rgb(255, 166, 0);
+}
+.dynamic_pict_container {
+	display: flex;
+	height: 550px;
+	width: 27vw;
+	padding-left: 5px;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+.image1 {
+	background-position: 50px 10px;
+	background: url('../assets/images/71tk+STxGXL._AC_UY575_.jpg') no-repeat 40px;
+	width: 379px;
+	height: 450px;
+	background-size: 270px 450px;
+}
+
+.middle_container {
+	display: flex;
+	flex-direction: column;
+	width: 27vw;
+	height: 550px;
+}
+.info-store a {
+	text-decoration: none;
+	color: #007185;
+	font-size: 14px;
+}
+.titals_stars_and_rating {
+	height: 65px;
+	width: 27vw;
+	color: #565959;
+	font-size: 24px;
+	border-bottom: solid 0.000002em #adadade1;
+	margin-bottom: 35px;
+}
+.stars_and_rating {
+	display: flex;
+	align-items: center;
+}
+.stars {
+	position: relative;
+	background: url('../assets/images/3-fm1Jbg4IHlyhq.png') no-repeat -390px -206px;
+	width: 95px;
+	height: 18px;
+}
+.rat {
+	color: #007185;
+	font-size: 13px;
+	padding-left: 10px;
+	cursor: pointer;
+}
+.rat:hover {
+	text-decoration: underline #565959;
+}
+.contant_section h2 {
+	font-size: 20px;
+	color: #565959;
+	font-weight: 10;
+}
+.price {
+	margin-left: 10px;
+	font-weight: 10;
+	font-family: Arial, sans-serif;
+	font-size: 18px;
+	color: rgba(148, 0, 0, 0.678);
+}
+.fit-zone {
+	position: relative;
+	margin-top: 15px;
+	cursor: pointer;
+}
+.fit-bold {
+	font-weight: bolder;
+}
+.fit-some {
+	font-size: 13px;
+	color: #007185;
+}
+.size {
+	margin-top: 10px;
+}
+.size label {
+	font-size: 15px;
+	color: #565959;
+}
+.size button {
+	position: relative;
+	cursor: pointer;
+	top: 10px;
+	width: 80px;
+	height: 35px;
+	border-radius: 5px;
+	margin-bottom: 25px;
+}
+.what_color {
+	font-weight: 10;
+	color: #565959;
+}
+.my-choose {
+	color: black;
+}
+.movit-down {
+	display: flex;
+	position: relative;
+	top: 10px;
+}
+.movit-down li {
+	margin-right: 5px;
+}
+.size_chart p {
+	position: relative;
+	top: 20px;
+	color: #007185;
+	font-size: 12px;
+	cursor: pointer;
+}
+.shoes-data {
+	position: relative;
+	line-height: 1.3em;
+	top: 30px;
+}
+.shoes-data li {
+	font-size: 12px;
+}
+.last_for_a {
+	position: relative;
+	top: 50px;
+}
+.last_for_a a {
+	color: #007185;
+	font-size: 12px;
+	text-decoration: none;
+}
+.right_side_container {
+	display: flex;
+	flex-direction: column;
+	width: 18vw;
+	height: 550px;
+}
+.box-inner {
+	position: relative;
+	width: 270px;
+	height: 130px;
+	border: 0.05em solid #56595941;
+	text-align: center;
+	line-height: 2.5em;
+	top: 20px;
+	left: 20px;
+	border-radius: 5px;
+}
+.buy {
+	position: relative;
+}
+.first_b {
+	background-color: #ffbf0f;
+	width: 170px;
+	height: 30px;
+	border-radius: 20px;
+	cursor: pointer;
+}
+.second_b {
+	width: 170px;
+	height: 30px;
+	cursor: pointer;
+}
+.share-contact {
+	width: 200px;
+	flex-direction: row;
+	position: relative;
+	top: 30px;
+	left: 100px;
+	line-height: 12px;
+}
+.icon {
+	color: blue;
+	padding: 10px;
+}
+.share-contact .p {
+	color: red;
+}
+.share-contact p {
+	color: #007185;
+	font-size: 12px;
+}
+.related_items {
+	position: relative;
+	width: 270px;
+	height: 250px;
+	border-radius: 5px;
+	border: 0.05em solid #56595941;
+	display: flex;
+	top: 50px;
+	left: 20px;
+	text-align: center;
+}
+.related {
+	background-size: 160px 160px;
+	background: url('../assets/images/51i-Zn0iEJL._AC_SR160\,160_.jpg') no-repeat
+		40px;
+	width: 200px;
+	height: 200px;
+}
+.related p {
+	position: relative;
+	top: 200px;
+	font-weight: 10;
+	color: #565959;
+	left: 20px;
+}

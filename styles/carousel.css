@@ -1,0 +1,64 @@
+.main-carousel {
+	display: flex;
+	height: 300px;
+	width: 73vw;
+	margin-top: 20px;
+}
+.carousel-title h3 {
+	margin-top: 10px;
+	color: #565959;
+}
+
+.cell {
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	padding: 5px;
+	width: 200px;
+	height: 300px;
+	text-overflow: ellipsis;
+}
+.cell img {
+	background-size: 160px 160px;
+	width: 150px;
+	height: 150px;
+}
+.cell div p {
+	color: #007185;
+	font-size: 12px;
+}
+.four-stars {
+	position: relative;
+	background: url('../assets/images/3-fm1Jbg4IHlyhq.png') no-repeat -447px -116px;
+	width: 60px;
+	height: 11px;
+	top: 10px;
+}
+.five-stars {
+	position: relative;
+	background: url('../assets/images/3-fm1Jbg4IHlyhq.png') no-repeat -447px -102px;
+	width: 60px;
+	height: 11px;
+	top: 10px;
+}
+.four-and-a-half {
+	position: relative;
+	background: url('../assets/images/3-fm1Jbg4IHlyhq.png') no-repeat -437px -130px;
+	width: 60px;
+	height: 11px;
+	top: 10px;
+}
+.three-stars {
+	top: 10px;
+	position: relative;
+	background: url('../assets/images/3-fm1Jbg4IHlyhq.png') no-repeat -315px -4px;
+	width: 60px;
+	height: 11px;
+}
+.prime {
+	position: relative;
+	background: url('../assets/images/E6vgqiIirWgGb3f.png') no-repeat -220px -199px;
+	width: 35px;
+	height: 11px;
+	top: 20px;
+}

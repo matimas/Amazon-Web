@@ -1,0 +1,224 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Amazon Ember', Arial, sans-serif;
+}
+header {
+	display: flex;
+	position: static;
+	width: 100vw;
+	height: 60px;
+	align-items: center;
+	background-color: #131921;
+	flex-shrink: 1;
+	min-width: 990px;
+}
+.logo-container {
+	flex-shrink: 1;
+	margin: 0 0 0 15px;
+	padding: 4px 0 0 0;
+}
+.logo-container:hover {
+	border: 00.02em whitesmoke solid;
+}
+.location-container:hover {
+	border: 00.02em whitesmoke solid;
+}
+.logo {
+	background: url('../assets/images/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png')
+		no-repeat -10px -51px;
+	width: 96px;
+	height: 29px;
+	margin: 1px;
+	padding: 1px 8px 0 6px;
+}
+.location-container {
+	position: relative;
+	margin: 5px 2px 5px 0px;
+	padding: 0px 9px;
+	list-style: 14px;
+}
+.location {
+	position: relative;
+	top: 7px;
+	background: url('../assets/images/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png')
+		no-repeat -71px -340px;
+	width: 17px;
+	height: 21px;
+}
+.deliver {
+	position: relative;
+	display: inline-block;
+	font-size: 12px;
+	color: aliceblue;
+	top: -20px;
+	left: 20px;
+}
+.toCountry {
+	position: relative;
+	left: -33px;
+	top: -8px;
+	font-size: 14px;
+	color: #fffff8;
+}
+.header-left-container {
+	display: flex;
+	width: 216px;
+	height: 60px;
+	align-items: center;
+}
+.search-container {
+	display: flex;
+	height: 60px;
+	width: 1255px;
+	margin: 0 18px;
+	padding: 10px 4px 10px 3px;
+	margin: 0 10px;
+	color: #0f1111;
+	align-items: center;
+	flex-shrink: 1;
+	cursor: pointer;
+}
+input {
+	width: 1155px;
+	height: 40px;
+	padding: 7px 10px 10px 0;
+	margin: 0;
+	border: none;
+}
+.select {
+	display: flex;
+	position: relative;
+	font-size: 12px;
+	height: 40px;
+	width: 52px;
+	padding: 0 0 0 5px;
+	color: #0f1111;
+	background-color: #f3f3f3;
+	align-items: center;
+	border-radius: 10px 0 0 10px;
+}
+.nav-icon {
+	position: relative;
+	background: url('../assets/images/arrow-down.png');
+	height: 32px;
+	width: 25px;
+	top: -10px;
+}
+.search-grow {
+	display: flex;
+	position: relative;
+	height: 40px;
+	width: 52px;
+}
+.search-icon {
+	position: relative;
+	background: url('../assets/images/search-black.png') no-repeat;
+	background-position: 5px 5px;
+	border-radius: 0 10px 10px 0;
+	height: 100%;
+	width: 100%;
+	background-color: #f3a847;
+}
+.header-right-container {
+	display: flex;
+	height: 60px;
+	width: 420px;
+	align-items: center;
+	color: #fffff8;
+	cursor: pointer;
+}
+.right-nav-lang-arrow {
+	display: flex;
+	width: 55px;
+	height: 50px;
+	margin: 1px;
+	left: -10px;
+	align-items: flex-end;
+	margin-left: 5px;
+}
+.right-nav-lang-arrow:hover {
+	border: 00.02em whitesmoke solid;
+}
+.right-nav-hello-acount:hover {
+	border: 00.02em whitesmoke solid;
+}
+.right-nav-order-returns:hover {
+	border: 00.02em whitesmoke solid;
+}
+.right-nav-cart:hover {
+	border: 00.02em whitesmoke solid;
+}
+.country-lang {
+	background: url('../assets/images/united-states.png') no-repeat 5px;
+	width: 28px;
+	height: 31px;
+}
+.right-nav-hello-acount {
+	display: flex;
+	flex-direction: column;
+	width: 135px;
+	height: 50px;
+	margin: 0 0 0 6px;
+	padding: 0 9px 10px;
+	justify-content: center;
+	line-height: 0.02em;
+}
+.hello-sign {
+	font-size: 12px;
+	flex: 1;
+	transform: translateY(150%);
+}
+.acount-list {
+	font-size: 14px;
+	flex: 2;
+	transform: translateY(100%);
+}
+.right-nav-order-returns {
+	display: flex;
+	flex-direction: column;
+	width: 90px;
+	height: 50px;
+	margin: 0 0 0 6px;
+	padding: 0 9px 10px;
+	justify-content: center;
+	line-height: 0.05em;
+}
+.orders {
+	font-size: 14px;
+	flex: 2;
+	transform: translateY(100%);
+}
+.returns {
+	font-size: 12px;
+	flex: 1;
+	transform: translateY(150%);
+}
+.right-nav-cart {
+	display: flex;
+	flex-direction: column;
+	width: 100px;
+	height: 50px;
+	margin: 0 15px 0 6px;
+	padding: 0 9px 0;
+	justify-content: center;
+}
+.cart {
+	background: url('../assets/images/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png')
+		no-repeat -218px -337px;
+	width: 41px;
+	height: 28px;
+}
+.cart p {
+	position: relative;
+	left: 38px;
+	top: 10px;
+}
+.counter {
+	width: 20px;
+	position: relative;
+	left: 16px;
+	top: 15px;
+	color: #ff9100;
+}
