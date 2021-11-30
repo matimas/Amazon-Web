@@ -15,7 +15,6 @@ header {
 	min-width: 990px;
 }
 .logo-container {
-	flex-shrink: 1;
 	margin: 0 0 0 15px;
 	padding: 4px 0 0 0;
 }
@@ -34,34 +33,21 @@ header {
 	padding: 1px 8px 0 6px;
 }
 .location-container {
-	position: relative;
+	display: flex;
+	justify-content: center;
 	margin: 5px 2px 5px 0px;
 	padding: 0px 9px;
-	list-style: 14px;
+	color: #f3f3f3;
+	font-size: 10px;
+	font-family: 'Amazon Ember', Arial, sans-serif;
 }
 .location {
-	position: relative;
-	top: 7px;
-	background: url('../assets/images/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png')
-		no-repeat -71px -340px;
-	width: 17px;
+	background: url(../assets/images/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png)
+		no-repeat -63px -338px;
+	width: 34px;
 	height: 21px;
 }
-.deliver {
-	position: relative;
-	display: inline-block;
-	font-size: 12px;
-	color: aliceblue;
-	top: -20px;
-	left: 20px;
-}
-.toCountry {
-	position: relative;
-	left: -33px;
-	top: -8px;
-	font-size: 14px;
-	color: #fffff8;
-}
+
 .header-left-container {
 	display: flex;
 	width: 216px;
@@ -71,13 +57,12 @@ header {
 .search-container {
 	display: flex;
 	height: 60px;
-	width: 1255px;
+	width: 60%;
 	margin: 0 18px;
 	padding: 10px 4px 10px 3px;
 	margin: 0 10px;
 	color: #0f1111;
 	align-items: center;
-	flex-shrink: 1;
 	cursor: pointer;
 }
 input {
@@ -139,7 +124,7 @@ input {
 	margin-left: 5px;
 }
 .right-nav-lang-arrow:hover {
-	border: 00.02em whitesmoke solid;
+	border: 1px whitesmoke solid;
 }
 .right-nav-hello-acount:hover {
 	border: 00.02em whitesmoke solid;
@@ -197,7 +182,7 @@ input {
 }
 .right-nav-cart {
 	display: flex;
-	flex-direction: column;
+	flex-flow: column;
 	width: 100px;
 	height: 50px;
 	margin: 0 15px 0 6px;
