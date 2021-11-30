@@ -16,6 +16,7 @@
 			referrerpolicy="no-referrer"
 		/>
 		<title>Amazon</title>
+		<script type="text/javascript" src="/scripts/index.js" defer></script>
 	</head>
 	<body>
 		<header class="header">
@@ -25,8 +26,10 @@
 				</div>
 				<div class="location-container">
 					<div class="location"></div>
-					<span class="deliver">Deliver&nbsp;to</span>
-					<span class="toCountry"><b>usa</b></span>
+					<div>
+						<span>Deliver&nbsp;to</span>
+						<span><b>usa</b></span>
+					</div>
 				</div>
 			</div>
 			<div class="search-container">
@@ -82,7 +85,9 @@
 		</section>
 		<!-- trarting with the main -->
 		<main class="main">
-			<div class="orange-black-friday-container"></div>
+			<div class="obf-container">
+				<div class="orange-black-friday"></div>
+			</div>
 			<div class="breadcrumbs_container">
 				<ul class="breadcrumbs-items">
 					<li class="breadcrumbs-items-item">
@@ -107,9 +112,9 @@
 			</div>
 			<!-- starting with the main page  -->
 			<div class="row1">
-				<div class="unorder-list-vertical">
+				<div class="dynamic_pict_container">
 					<ul class="list-pict-items">
-						<li class="pict-items pict-item1"></li>
+						<li class="pict-items pict-item1" id="item1"></li>
 						<li class="pict-items pict-item2"></li>
 						<li class="pict-items pict-item3"></li>
 						<li class="pict-items pict-item4"></li>
@@ -117,9 +122,7 @@
 						<li class="pict-items pict-item6"></li>
 						<li class="pict-items pict-item7"></li>
 					</ul>
-				</div>
-				<div class="dynamic_pict_container">
-					<div class="image1"></div>
+					<div class="image1" id="image1"></div>
 				</div>
 				<!-- contant -middle row- section -->
 				<div class="middle_container">
@@ -180,7 +183,7 @@
 							><p>To&nbsp;buy,&nbsp;select&nbsp;<strong>Size</strong></p></span
 						>
 						<button onClick="increm()" class="first_b">Add to cart</button>
-						<hr sty />
+						<hr style="position: relative; width: 80%; left: 25px" />
 						<button class="second_b">Add to List</button>
 					</div>
 					<div class="share-contact">
@@ -285,6 +288,5 @@
 				</div>
 			</div>
 		</main>
-		<script src="/scripts/index.js"></script>
 	</body>
 </html>
